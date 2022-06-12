@@ -1,6 +1,4 @@
-// let productList = []
 import { productList } from './script.js'
-// let productList = window.localStorage.getItem('productList')
 $(document).ready(function () {
   $('.img-carousel').slick({
     dots: true,
@@ -27,18 +25,12 @@ $(document).ready(function () {
       },
     ],
   })
-  //   clothingAndAccessories()
-
-  // productInfo()
-  //onClick event handler
 })
 function createClothAndAccSectionContainer(clothCardName, accCardName) {
   const clothsectionContainer = createCardSectionContainer(clothCardName)
 
   const accessoriesSectionContainer = createCardSectionContainer(accCardName)
-  //   console.log(clothsectionContainer)
   let [clothCardContainer, accessoriesCardContainer] = createCardContainer()
-  //   console.log(clothCardContainer)
   clothsectionContainer.append(clothCardContainer)
   accessoriesSectionContainer.append(accessoriesCardContainer)
   console.log(clothsectionContainer, accessoriesSectionContainer)
@@ -54,7 +46,6 @@ function createCardSectionContainer(cardName) {
   return sectionContainer
 }
 function createCardContainer() {
-  // const clothingCard, accessoriesCard
   const clothCardContainer = document.createElement('div')
   clothCardContainer.className = 'card-container'
   const accessoriesCardContainer = document.createElement('div')

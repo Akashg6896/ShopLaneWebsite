@@ -6,9 +6,6 @@
 #order-success-wrapper {
   display: flex;
   margin: 50px auto;
-  /* padding: 100px auto; */
-  /* height: 500px; */
-  /* width: 1500px; */
   justify-items: center;
   justify-content: center;
   flex-direction: column;
@@ -19,68 +16,36 @@
 #order-success-wrapper div i {
   padding-top: 50px;
   text-align: center;
-  /* padding-left: 610px; */
-  /* width: 100px;
-  height: 100px; */
 }
 #order-success-wrapper i {
   width: 100%;
-  /* background-color: deepskyblue; */
-  /* position: absolute; */
-  /* left: 100px; */
   color: rgb(95, 203, 95);
   font-size: 330px;
   z-index: 2;
   text-align: center;
 }
 #order-success-wrapper h2 {
-  /* padding-top: 220px; */
   position: relative;
-  /* right: 230px; */
   text-align: center;
   font-size: 35px;
   font-weight: 500;
-  /* text-align: ; */
   margin-top: 20px;
   margin-left: 20px;
 }
 #order-success-wrapper h3 {
   padding-top: 20px;
-  /* position: relative; */
-  /* right: 90px; */
+
   font-weight: 300;
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
-  /* #order-success-wrapper {
-    display: flex;
-    margin: 100px auto;
-    padding: 100px auto;
-    height: 600px;
-    width: 450px;
-    flex-direction: column;
-  }
-  #order-success-wrapper div i {
-    padding-top: 50px;
-    text-align: center;
-    /* padding-left: 610px; */
-  /* padding-left: 0; */
-  /* width: 0; */
-  /* height: 0; */
-  /* width: 100px; */
-  /* height: 100px; */
-  /* }*/
   * {
     overflow: scroll;
   }
   .nav-sub {
     display: none;
   }
-  /* .nav-sub {
-  } */
-  /* .nav-change {
-    transform: translate(0%);
-  } */
+
   .nav-display {
     display: flex;
     position: fixed;
@@ -158,28 +123,19 @@
     width: 100%;
     height: 100%;
     font-size: 150px;
-    /* padding-left: 610px; */
-    /* width: 100px; */
-    /* height: 100px; */
+
     position: relative;
-    /* left: 100px; */
-    /* padding-left: 120px; */
-    /* padding-left: 150px; */
+
     padding-left: 0px;
   }
   #order-success-wrapper div {
-    /* display: flex; */
     width: auto;
     height: auto;
     padding: auto;
-    /* margin: auto; */
   }
   #order-success-wrapper h2 {
     right: 100px;
-    /* font-size: 20px; */
     padding-top: 20px;
-    /* padding-left: 100px; */
-    /* margin-top: 10px; */
     font-size: 16px;
     overflow: hidden;
     float: none;
@@ -190,7 +146,6 @@
   #order-success-wrapper h3 {
     padding-top: 20px;
     right: 0px;
-    /* padding-left: 70px; */
     font-weight: 300;
     font-size: 16px;
     overflow: hidden;

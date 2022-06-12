@@ -10,9 +10,7 @@ h2 {
   margin-left: 120px;
   color: rgb(27, 25, 25);
 }
-/* .nav-sub {
-  display: none;
-} */
+
 #topbar {
   width: 100%;
   box-shadow: 0 2px 5px #ccc;
@@ -265,25 +263,10 @@ footer > div {
   .footer-link {
     font-size: 10px;
   }
-  /* .nav-sub {
-    position: absolute;
-    top: 10vh;
-    right: 0px;
-    flex-direction: column;
-    background-color: rgb(0, 0, 0, 0.75);
-    border-radius: 0px 0px 0px 20px;
-    transition: transform 0.3s ease-in;
-    transform: translateY(-100%);
-    z-index: -2;
-  } */
   .nav-sub {
     display: none;
   }
-  /* .nav-sub {
-  } */
-  /* .nav-change {
-    transform: translate(0%);
-  } */
+
   .nav-display {
     display: flex;
     position: fixed;
@@ -330,9 +313,6 @@ footer > div {
     display: block;
   }
 
-  /* .list-item {
-    width: 570px;
-  } */
   #clothing,
   #accessories,
   #search-tab,
