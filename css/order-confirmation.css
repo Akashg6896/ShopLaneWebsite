@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#order-success-wrapper {
+  display: flex;
+  margin: 50px auto;
+  /* padding: 100px auto; */
+  /* height: 500px; */
+  /* width: 1500px; */
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-sub {
+  display: none;
+}
+#order-success-wrapper div i {
+  padding-top: 50px;
+  text-align: center;
+  /* padding-left: 610px; */
+  /* width: 100px;
+  height: 100px; */
+}
+#order-success-wrapper i {
+  width: 100%;
+  /* background-color: deepskyblue; */
+  /* position: absolute; */
+  /* left: 100px; */
+  color: rgb(95, 203, 95);
+  font-size: 330px;
+  z-index: 2;
+  text-align: center;
+}
+#order-success-wrapper h2 {
+  /* padding-top: 220px; */
+  position: relative;
+  /* right: 230px; */
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  /* text-align: ; */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#order-success-wrapper h3 {
+  padding-top: 20px;
+  /* position: relative; */
+  /* right: 90px; */
+  font-weight: 300;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  /* #order-success-wrapper {
+    display: flex;
+    margin: 100px auto;
+    padding: 100px auto;
+    height: 600px;
+    width: 450px;
+    flex-direction: column;
+  }
+  #order-success-wrapper div i {
+    padding-top: 50px;
+    text-align: center;
+    /* padding-left: 610px; */
+  /* padding-left: 0; */
+  /* width: 0; */
+  /* height: 0; */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* }*/
+  * {
+    overflow: scroll;
+  }
+  .nav-sub {
+    display: none;
+  }
+  /* .nav-sub {
+  } */
+  /* .nav-change {
+    transform: translate(0%);
+  } */
+  .nav-display {
+    display: flex;
+    position: fixed;
+    top: 20vh;
+    right: 0px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: none;
+    transition: transform 0.7s ease-in;
+    transform: translateY(-100%);
+    z-index: 20;
+    top: 45px;
+    padding-top: 0px;
+    background-color: #ffff;
+    box-shadow: 0 2px 5px #ccc;
+    padding-bottom: 20px;
+  }
+  .change .bar1 {
+    transform: rotate(45deg) translate(8px, 3px);
+  }
+  .change .bar2 {
+    opacity: 0;
+  }
+  .change .bar3 {
+    transform: rotate(-45deg) translate(8px, -3px);
+  }
+  .nav-change {
+    transition: transform 7s ease-in-out;
+    transform: translateY(10%);
+  }
+  .list-item {
+    width: 100vw;
+    text-align: center;
+    color: #000;
+    box-shadow: 2px 2px 2px #f9ffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .list-item a {
+    color: inherit;
+    text-transform: uppercase;
+  }
+  #edyoda-projects-logo {
+    width: 78px;
+    position: fixed;
+    bottom: 0px;
+    /* top: 0; */
+    right: 0px;
+  }
+  .footer-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+  }
+  .footer-link {
+    font-size: 10px;
+  }
+  #order-success-wrapper {
+    display: flex;
+    margin: 50px auto;
+    margin-right: 0px;
+    padding: 50px auto;
+    padding-right: 0px;
+    height: 60%;
+    width: auto;
+    flex-direction: column;
+  }
+  #order-success-wrapper div i {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 150px;
+    /* padding-left: 610px; */
+    /* width: 100px; */
+    /* height: 100px; */
+    position: relative;
+    /* left: 100px; */
+    /* padding-left: 120px; */
+    /* padding-left: 150px; */
+    padding-left: 0px;
+  }
+  #order-success-wrapper div {
+    /* display: flex; */
+    width: auto;
+    height: auto;
+    padding: auto;
+    /* margin: auto; */
+  }
+  #order-success-wrapper h2 {
+    right: 100px;
+    /* font-size: 20px; */
+    padding-top: 20px;
+    /* padding-left: 100px; */
+    /* margin-top: 10px; */
+    font-size: 16px;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    padding-left: 180px;
+    margin-top: 0px;
+  }
+  #order-success-wrapper h3 {
+    padding-top: 20px;
+    right: 0px;
+    /* padding-left: 70px; */
+    font-weight: 300;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+}
